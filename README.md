@@ -1,4 +1,4 @@
-## Panglong [Shan](https://en.wikipedia.org/wiki/Shan_people) language Keyboard layout for Windows 10 (Unicode)
+## Panglong [Shan](https://en.wikipedia.org/wiki/Shan_people) language Keyboard layout for Windows 10/11 (Unicode)
 
 Unofficial custom "panglong keyboard" layout, with installer and fonts.
 
@@ -13,6 +13,7 @@ Unofficial custom "panglong keyboard" layout, with installer and fonts.
 ### Tested on
 
 - [x] Windows 10
+- [x] Windows 11
 
 ----------------------------------------------------
 ### Install
