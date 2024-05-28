@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Panglong Shan Keyboard"
-#define MyAppVersion "1.1"
+#define MyAppVersion "1.2"
 #define MyAppPublisher "NoerNova"
 #define MyAppURL "https://noernova.com"
 #define MyAppExeName "install_script.cmd"
@@ -26,12 +26,12 @@ DisableDirPage=yes
 ChangesAssociations=yes
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
-LicenseFile=C:\Users\trust\Downloads\Panglong_Shan_Keyboard_Windows\LICENSE-2.0.txt
+LicenseFile=C:\Users\NoerN\Downloads\Panglong_Keyboard\LICENSE-2.0.txt
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=C:\Users\trust\Documents
+OutputDir=C:\Users\NoerN\Downloads
 OutputBaseFilename=pl_shan_keyboard
-SetupIconFile=C:\Users\trust\Downloads\Panglong_Shan_Keyboard_Windows\shan_flag.ico
+SetupIconFile=C:\Users\NoerN\Downloads\Panglong_Keyboard\shan_flag.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -40,13 +40,13 @@ WizardStyle=modern
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "C:\Users\trust\Downloads\Panglong_Shan_Keyboard_Windows\panglong_keyboard\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\trust\Downloads\Panglong_Shan_Keyboard_Windows\shan_fonts\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\trust\Downloads\Panglong_Shan_Keyboard_Windows\install_script.cmd"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\trust\Downloads\Panglong_Shan_Keyboard_Windows\font_installer.vbs"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\trust\Downloads\Panglong_Shan_Keyboard_Windows\shan_flag.ico"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\trust\Downloads\Panglong_Shan_Keyboard_Windows\LICENSE-2.0.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\trust\Downloads\Panglong_Shan_Keyboard_Windows\Keyboard_Layout_Shan.png"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\NoerN\Downloads\Panglong_Keyboard\panglong_keyboard\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\NoerN\Downloads\Panglong_Keyboard\shan_fonts\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\NoerN\Downloads\Panglong_Keyboard\install_script.cmd"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\NoerN\Downloads\Panglong_Keyboard\font_installer.vbs"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\NoerN\Downloads\Panglong_Keyboard\shan_flag.ico"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\NoerN\Downloads\Panglong_Keyboard\LICENSE-2.0.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\NoerN\Downloads\Panglong_Keyboard\Keyboard_Layout_Shan.png"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
