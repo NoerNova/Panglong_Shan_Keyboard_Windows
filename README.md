@@ -18,7 +18,7 @@ Unofficial custom "panglong keyboard" layout, with installer and fonts.
 ----------------------------------------------------
 ### Install
 
-- Downloads [pl_shan_keyboard.exe](https://github.com/NoerNova/Panglong_Shan_Keyboard_win/releases/download/1.0/pl_shan_keyboard.exe)
+- Downloads [pl_shan_keyboard.exe](https://github.com/NoerNova/Panglong_Shan_Keyboard_Windows/releases/download/1.2/pl_shan_keyboard.exe)
 - ```Run pl_shan_keyboard.exe with administrator```
 
 
